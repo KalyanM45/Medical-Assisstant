@@ -1,20 +1,6 @@
-Absolutely! Here's the complete README in Markdown:
-
-```markdown
 # Medical Query Generator
 
 A Flask web application that uses Google's GenerativeAI (Gemini) to generate medical responses based on user input. The application simulates a medical expert providing accurate advice to a patient's query.
-
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## About The Project
 
@@ -26,17 +12,17 @@ To get started with the project, follow the steps below.
 
 ### Prerequisites
 
-- Python 3.x
-- Pip (Python package installer)
 - Google API Key
-- Docker (optional)
+- Google Generativeai
+- Flask
+- Python Dotenv
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/medical-query-generator.git
+   git clone https://github.com/KalyanMurapaka45/Medical-Assisstant.git
    cd medical-query-generator
    ```
 
@@ -82,9 +68,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-- Your Name - [Your Email](mailto:your.email@example.com)
+- Your Name - [Your Email](mailto:kalyanmurapaka274@gmail.com)
 
-Project Link: [https://github.com/your-username/medical-query-generator](https://github.com/your-username/medical-query-generator)
-```
-
-Remember to replace "your-username" and "your.email@example.com" with your actual GitHub username and email address. Additionally, update any project-specific details as needed.
+Project Link: [https://github.com/KalyanMurapaka45/Medical-Assisstant](https://github.com/KalyanMurapaka45/Medical-Assisstant)
