@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medical Advisor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Your Trusted Medical Advisor</h1>
+      <p class="lead">Get accurate and reliable medical advice tailored to your concerns.</p>
+    </header>
+
+    <form method="post">
+      <label for="user_input">Enter Your Medical Query:</label>
+      <textarea id="user_input" name="user_input" rows="4" cols="50"></textarea><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    {% if user_input %}
+    <section class="response">
+      <h2>Medical Response</h2>
+      <p>{{ response }}</p>
+    </section>
+    {% endif %}
+
+    <footer>
+      <center><p>&copy; 2023 Your Medical Advisor</p></center>
+    </footer>
+  </div>
+</body>
+</html>
