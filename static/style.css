@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p.lead {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff; /* Primary blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Add a smooth hover effect */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc; /* Darker blue on hover */
+  }
+  
+  section.response {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  
+  /* Additional considerations for healthcare context */
+  .response p {
+    margin-bottom: 15px;
+  }
+  
+  .response strong {
+    font-weight: bold;
+  }
+  
+  .response em {
+    font-style: italic;
+  }
+  
+  /* Optional: Visual enhancements */
+  /* Add a subtle gradient to the container */
+  .container {
+    background: linear-gradient(to bottom, #f7f7f7, #e9e9e9);
+  }
+  
+  /* Add a touch of color to the submit button */
+  input[type="submit"]:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }  
